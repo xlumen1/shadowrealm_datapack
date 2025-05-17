@@ -1,5 +1,2 @@
-gamerule keepInventory true
-gamerule doImmediateRespawn true
-kill @s
-execute in shadowrealm:the_room run gamerule keepInventory false
-execute in shadowrealm:the_room run gamerule doImmediateRespawn false
+execute in minecraft:overworld run tp @s ~ 448 ~
+effect give @s minecraft:slow_falling 60 0 true
